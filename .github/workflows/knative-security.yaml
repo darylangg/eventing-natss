@@ -3,14 +3,14 @@
 
 # This file is automagically synced here from github.com/knative-extensions/knobots
 
-name: 'Security'
+name: "Security"
 
 on:
-  push:
-    branches: [ 'main', 'release-*' ]
+  # push:
+  #   branches: [ 'main', 'release-*' ]
 
   pull_request:
-    branches: [ 'main', 'release-*' ]
+    branches: ["main", "release-*"]
 
 jobs:
   analyze:
